@@ -8,6 +8,6 @@
 * **Тесты:** Логика расчетов и работа с аргументами полностью покрыта Unit-тестами (pytest).
 
 ### Примеры запуска:
+![Результат работы](screenshot.png)
 ```bash
 python -m src.main --files math.csv physics.csv --report median-coffee
-![Пример работы скрипта](screenshot.png)
