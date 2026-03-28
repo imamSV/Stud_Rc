@@ -35,9 +35,9 @@ def test_median_coffee_report_logic():
     data = [
         {"student": "Алексей", "coffee_spent": "100"},
         {"student": "Алексей", "coffee_spent": "200"},
-        {"student": "Алексей", "coffee_spent": "300"},  # медиана: 200
+        {"student": "Алексей", "coffee_spent": "300"}, 
         {"student": "Дарья", "coffee_spent": "500"},
-        {"student": "Дарья", "coffee_spent": "600"}  # медиана: 550
+        {"student": "Дарья", "coffee_spent": "600"}
     ]
     report = MedianCoffeeReport()
     result = report.generate(data)
